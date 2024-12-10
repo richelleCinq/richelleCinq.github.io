@@ -9,6 +9,8 @@ const galleryImages = [
   'https://richelleCinq.github.io/images/works/tomi_logo.jpg',
   'https://richelleCinq.github.io/images/works/Tomi_Mockup_front.png',
   'https://richelleCinq.github.io/images/works/whitewine-momandunuglykids.png',
+  'https://richelleCinq.github.io/images/works/beauty-type-poster.png',
+  'https://richelleCinq.github.io/images/works/PopUp_book.png',
   'https://richelleCinq.github.io/images/works/amélie_poster_fin.png',
   'https://richelleCinq.github.io/images/works/123-tieyourshoe.png',
   'https://richelleCinq.github.io/images/works/big-spoon-SharpenAI-Motion.png',

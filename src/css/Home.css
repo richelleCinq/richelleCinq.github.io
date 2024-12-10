@@ -9,6 +9,11 @@ a {
     color: inherit;
 }
 
+.text-animation{
+    margin-left: 30px;
+
+}
+
 article {
     display: grid;
     grid-template-columns: 1fr;
@@ -70,25 +75,34 @@ h2 {
     display: flex;
     flex-wrap: nowrap;
     transition: transform .4s ease;
+    position: relative;
+    overflow: hidden;
 }
 
 .description {
     margin: 0px 10px 2px 20px;
 }
 
+.section > * {
+    transition: transform .6s ease;
+}
+
 .abstractImg {
     width: 100%;
     object-fit: cover;
+    max-height: 300px;
 }
 
 .section p {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .section:hover {
     transform: scale(1.02);
-    box-shadow: 5px 5px 10px lightgray;
+    box-shadow: 5px 5px 10px lightgray
 }
+
+
 
 
 @media screen and (max-width: 800px) {
