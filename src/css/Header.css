@@ -13,6 +13,7 @@ header {
     width: 25px;
     margin-left: 25px;
     align-items: center;
+    position: sticky;
 }
 
 .nav {
@@ -24,14 +25,39 @@ header {
     z-index: 1000; /*keep it on top of the layers */
 }
 
+.toggle-menu {
+    transform: rotate(90deg);
+    font-size: 1rem;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+
 .navItem {
     margin-left: 10px;
 }
 
-ul {
+.menu-dropdown {
+    display: flex; 
+    z-index: 1000;
+}
+
+.menu-dropdown ul {
     list-style: none;
     display: flex;
     margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+ul > li {
+    margin-top: 10px;
 }
 
 .navBar li > a {

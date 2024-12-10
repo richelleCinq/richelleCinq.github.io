@@ -11,6 +11,8 @@ import Ux from "./pages/Ux";
 import Art from "./pages/Art";
 import Works from "./pages/Works";
 import About from "./pages/About";
+import WebDev from "./pages/WebDev";
+import Packaging from "./pages/Packaging";
 
 
 export default function App() {
@@ -29,6 +31,8 @@ export default function App() {
           <Route path="art" element={<Art />} />
           <Route path="works" element={<Works />} />
           <Route path="about" element={<About />} />
+          <Route path="webdev" element={<WebDev />} />
+          <Route path="packaging" element={<Packaging />} />
         </Route>
       </Routes>
     </BrowserRouter>
